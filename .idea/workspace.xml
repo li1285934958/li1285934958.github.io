@@ -28,7 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project/JavaProject/20194071李昱康_3/信1905-2 20194071 李昱康/data_dictionary" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -40,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662429660325</updated>
       <workItem from="1662429662223" duration="8577000" />
+      <workItem from="1662460625547" duration="29000" />
     </task>
     <servers />
   </component>
