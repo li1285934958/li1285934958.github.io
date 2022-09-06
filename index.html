@@ -15,7 +15,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<title>Home</title>
-
+	<style>
+		body {
+			display: flex;
+			justify-content: center;
+		}
+		.img {
+			width: 300px;
+			height: 300px;
+			border: black 1px solid;
+			background-color: darkgrey;
+		}
+		/* 图片自适应的样式 */
+		.img-object{
+			object-fit: cover;
+			object-position: 50% 20%;
+		}
+	</style>
 	<!-- STYLES -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
@@ -350,8 +366,8 @@
 									<ul class="arlo_tm_portfolio_filter">
 										<li><a href="#" class="current" data-filter="*">全部</a></li>
 										<li><a href="#" data-filter=".系统">系统</a></li>
-										<li><a href="#" data-filter=".photography">Photography</a></li>
-										<li><a href="#" data-filter=".development">Development</a></li>
+										<li><a href="#" data-filter=".项目">项目</a></li>
+<!--										<li><a href="#" data-filter=".development">Development</a></li>-->
 									</ul>
 									<ul class="arlo_tm_portfolio_list gallery_zoom">
 										<li class="系统">
@@ -361,41 +377,41 @@
 													<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/1.jpg" href="https://github.com/li1285934958/data_dictionary"></div>
 												</a>										</div>
 										</li>
-										<li class="photography">
-											<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Ind Hed" data-category="Photography">
+										<li class="项目">
+											<div class="entry arlo_tm_portfolio_animation_wrap" data-title="热词目录以及词云图" data-category="项目">
 												<a href="portfolio-single.html">
-													<img src="img/portfolio/600x600.jpg" alt="" />
+													<img class="img img-object" src="img/portfolio/600x600.jpg" alt="" />
 													<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/2.jpg"></div>
 												</a>										</div>
 										</li>
-										<li class="development">
-											<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Paper Mockup" data-category="Development">
+										<li class="系统">
+											<div class="entry arlo_tm_portfolio_animation_wrap" data-title="民法典智能问答系统" data-category="系统">
 												<a href="portfolio-single.html">
 													<img src="img/portfolio/600x600.jpg" alt="" />
 													<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/3.jpg"></div>
 												</a>										</div>
 										</li>
-										<li class="photography">
-											<div class="entry arlo_tm_portfolio_animation_wrap" data-title="The Nordic" data-category="Photography">
-												<a href="portfolio-single.html">
-													<img src="img/portfolio/600x600.jpg" alt="" />
-													<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/4.jpg"></div>
-												</a>										</div>
-										</li>
-										<li class="design">
-											<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Creatives Castle" data-category="Design">
-												<a href="portfolio-single.html">
-													<img src="img/portfolio/600x600.jpg" alt="" />
-													<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/5.jpg"></div>
-												</a>										</div>
-										</li>
-										<li class="photography">
-											<div class="entry arlo_tm_portfolio_animation_wrap" data-title="White Bag" data-category="Photography">
-												<a href="portfolio-single.html">
-													<img src="img/portfolio/600x600.jpg" alt="" />
-													<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/6.jpg"></div>
-												</a>										</div>
-										</li>
+<!--										<li class="photography">-->
+<!--											<div class="entry arlo_tm_portfolio_animation_wrap" data-title="The Nordic" data-category="Photography">-->
+<!--												<a href="portfolio-single.html">-->
+<!--													<img src="img/portfolio/600x600.jpg" alt="" />-->
+<!--													<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/4.jpg"></div>-->
+<!--												</a>										</div>-->
+<!--										</li>-->
+<!--										<li class="design">-->
+<!--											<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Creatives Castle" data-category="Design">-->
+<!--												<a href="portfolio-single.html">-->
+<!--													<img src="img/portfolio/600x600.jpg" alt="" />-->
+<!--													<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/5.jpg"></div>-->
+<!--												</a>										</div>-->
+<!--										</li>-->
+<!--										<li class="photography">-->
+<!--											<div class="entry arlo_tm_portfolio_animation_wrap" data-title="White Bag" data-category="Photography">-->
+<!--												<a href="portfolio-single.html">-->
+<!--													<img src="img/portfolio/600x600.jpg" alt="" />-->
+<!--													<div class="arlo_tm_portfolio_image_main" data-img-url="img/portfolio/6.jpg"></div>-->
+<!--												</a>										</div>-->
+<!--										</li>-->
 									</ul>
 								</div>
 							</div>
